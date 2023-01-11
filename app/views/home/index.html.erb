@@ -1,15 +1,18 @@
 <%= render 'hero' %>
 
-<%= render 'steps' %>
-
 <div class="product-section">
-  <h3>Bereit, das perfekte Outfit zu mieten?</h3>
   <article>
     <% cache(cache_key_for_products) do %>
       <%= render 'products/products', products: @products %>
     <% end %>
   </article>
 </div>
+
+<%= render 'steps' %>
+
+<%# <h3>Bereit, das perfekte Outfit zu mieten?</h3> %>
+
+<%= render 'testimonials' %>
 
 <div class="logos">
   <%= image_tag('eu-sozialfonds.jpg') %>
