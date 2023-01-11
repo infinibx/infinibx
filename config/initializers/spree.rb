@@ -7,10 +7,10 @@ Spree.load_defaults '3.2.5'
 Spree.config do |config|
   # Core:
   # Default currency for new sites
-  config.currency = "USD"
+  config.currency = "EUR"
 
   # from address for transactional emails
-  config.mails_from = "store@example.com"
+  config.mails_from = "infinibx@gmail.com"
 
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
