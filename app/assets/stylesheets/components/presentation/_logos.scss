@@ -1,0 +1,12 @@
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.logos img {
+  width: 100px;
+  height: 100%;
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
