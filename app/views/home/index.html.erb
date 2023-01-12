@@ -1,11 +1,12 @@
 <%= render 'hero' %>
 
 <div class="product-section">
-  <article>
+  <%# <article>
     <% cache(cache_key_for_products) do %>
-      <%= render 'products/products', products: @products %>
-    <% end %>
-  </article>
+      <%# <%= render 'products/products', products: @products %>
+    <%# <% end %>
+  <%# </article> %>
+  <%= render 'boxes' %>
 </div>
 
 <%= render 'steps' %>

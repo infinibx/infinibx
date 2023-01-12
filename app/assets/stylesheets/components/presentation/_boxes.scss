@@ -1,0 +1,54 @@
+.boxes {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  background-color: #fff;
+  display: flex;
+}
+
+.box {
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin: 15px;
+  background-color: var(--brand-white);
+  box-shadow: 0 0 15px rgba(0,0,0,0.04);
+}
+
+.box h4 {
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.box p {
+  padding-top: 20px;
+}
+
+.box h3 {
+  color: var(--brand-pink);
+  text-align: end;
+}
+
+.small-card {
+  width: 360px;
+  height: 400px;
+  color: var(--brand-black);
+}
+
+.seasonal-box {
+  // border: 1px solid var(--brand-medium-pink);
+  background-color: var(--brand-baby-pink);
+  width: 410px;
+  height: 440px;
+  color: var(--brand-black);
+}
+
+.seasonal-box button {
+  border: 1px solid #fff;
+}
+
+.checkmark {
+  color: var(--brand-pink);
+  font-size: 20px;
+}
