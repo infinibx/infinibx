@@ -38,10 +38,11 @@
 
 .seasonal-box {
   // border: 1px solid var(--brand-medium-pink);
-  background-color: var(--brand-baby-pink);
+  background-color: var(--brand-gray);
   width: 410px;
   height: 440px;
   color: var(--brand-black);
+  box-shadow: 0 0 15px rgba(0,0,0,0.04);
 }
 
 .seasonal-box button {
@@ -51,4 +52,11 @@
 .checkmark {
   color: var(--brand-pink);
   font-size: 20px;
+}
+
+.image {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url('https://infini.fra1.cdn.digitaloceanspaces.com/header copie-min.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: center;
 }
